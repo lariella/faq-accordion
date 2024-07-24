@@ -1,0 +1,140 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    background-color: hsl(275, 100%, 97%);
+    color: hsl(292, 42%, 14%);
+    margin: 0;
+}
+
+#background {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.main-container {
+    padding: 30px 30px 15px 30px;
+    min-width: 200px;
+    width: 520px;
+    margin: 180px auto 200px auto;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(292, 42%, 14%);
+}
+
+.heading-icon {
+    height: 41px;
+    width: 40px;
+    background-image: url(./assets/images/icon-star.svg);
+}
+
+.accordion-panel {
+    border-top:  0.1px solid rgb(228, 226, 226);
+    padding: 20px 0;
+}
+
+#first-panel {
+    border-top: none;
+}
+
+.panel-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.panel-heading:hover {
+    color: #AD28EB;
+    cursor: pointer;
+}
+
+.panel-icon {
+    display: block;
+    min-width: 30px;
+    height: 31px;
+    background-size: contain;
+    background: url(./assets/images/icon-plus.svg);
+}
+
+.visible.panel-icon {
+    background: url(./assets/images/icon-minus.svg);
+}
+
+.accordion-panel p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: hsl(292, 16%, 49%);
+    margin: 0;
+    padding: 0;
+    max-height: 0;
+    visibility: hidden;
+    transition: max-height 0.15s ease-out;
+    transition: padding 0.15s ease-out;
+    overflow: hidden;
+}
+
+p.visible {
+    padding: 16px 0 0 0;
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+    transition: padding 0.25s ease-in;
+    visibility: visible;
+}
+
+@media (max-width: 577px) {
+
+    .main-container {
+        width: auto;
+        margin: 120px 20px 200px 20px;
+    }
+    /* Heading */
+    .heading-icon{
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .accordion-panel p {
+        font-size: 14px;
+    }
+
+    /* Change Background */
+    #background {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+        height: 232px;
+        width: 100%;
+    }
+
+}
+
