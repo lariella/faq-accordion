@@ -78,7 +78,7 @@ h2 {
     background: url(./assets/images/icon-plus.svg);
 }
 
-.visible.panel-icon {
+span.panel-icon.visible {
     background: url(./assets/images/icon-minus.svg);
 }
 
