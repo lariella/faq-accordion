@@ -42,11 +42,6 @@ h2 {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: hsl(292, 42%, 14%);
-}
-
 .heading-icon {
     height: 41px;
     width: 40px;
@@ -102,7 +97,7 @@ a {
 
 p.visible {
     padding: 16px 0 0 0;
-    max-height: 500px;
+    max-height: 200px;
     transition: max-height 0.25s ease-in;
     transition: padding 0.25s ease-in;
     visibility: visible;
@@ -114,7 +109,7 @@ p.visible {
         width: auto;
         margin: 120px 20px 200px 20px;
     }
-    /* Heading */
+    /* Heading resizing*/
     .heading-icon{
         height: 30px;
         width: 30px;

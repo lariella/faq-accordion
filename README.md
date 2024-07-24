@@ -10,11 +10,8 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -29,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/lariella/faq-accordion](https://github.com/lariella/faq-accordion)
+- Live Site URL: [https://lariella.github.io/faq-accordion](https://lariella.github.io/faq-accordion)
 
 ## My process
 
@@ -46,14 +43,9 @@ Users should be able to:
 - Flexbox
 - Vanilla JS
 
-### What I learned
-
-### Continued development
-
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Focusable elements (WCAG)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard) - Hide & Show the answers using the keyboard
 
 
